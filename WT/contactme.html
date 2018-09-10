@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PERSONAL BLOG</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+
+    <body>    
+<script src="dblog.js"></script>
+ <!-- header start -->
+        <div id="header" class="section">
+            <div id="animation"> <img alt="geometrical design" class="img-circle" src="geomimage1.jpg">
+		</div>
+            <p>PERSONAL BLOG</p>
+        </div>
+        <!-- header end -->
+<!-- Form section start -->
+       <div class="section">
+            <h1><span>Contact Me</span></h1>
+            <form name= "myForm" method="POST" autocomplete="off">
+                <input name="name" placeholder="Name" type="text" autofocus /><br/>
+                <input name="email" placeholder="Email" type="email" autofocus/><br/>
+                <textarea name="message" placeholder="Message" autofocus></textarea><br/>
+                <button onclick="validateForm(); validateemail">Submit</button>
+            </form>
+        </div>
+        <!-- Form section end -->
+<div class="section" id="contacts">
+            <h1><span>Follow Me</span></h1>
+            <div>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img alt="LinkedIn" src="linkedinlogo.png" />
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img alt="Facebook" src="facebooklogo.png"/>
+                </a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <img alt="Twitter" src="twitterlogo.jpg" />
+                </a>
+            </div>
+        </div>
+</body>
+</html>

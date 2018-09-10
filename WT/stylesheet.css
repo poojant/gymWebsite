@@ -1,0 +1,250 @@
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25px;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section2 p{
+	font-size: 25px;
+	color: cyan;
+}
+.quote {
+	color: cyan;
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+	color: cyan;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+	color: cyan;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+/*hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}*/
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+.section button{
+background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11px;
+    padding: 15px 10px 10px;
+    border: 1px solid cyan;
+    background-color: black;
+    color: cyan;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+#animation{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  {left:500px; top:0px;}
+    50%  {left:0px; top:0px}
+    75%  {left:-500px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+#back{
+	background-image: url("backcar.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+	background-color: Transparent;
+	border: 5px black solid;
+	color: cyan;
+	padding:15px 32px;
+	text-align: center;
+	display: inline-block;
+	font=size: 16px;
+}
+button:hover{
+    color: green;
+}
+.flip{
+	width: 300px;
+	height: 200px;
+    background: black;
+    color: cyan;
+    text-align: center;
+}
+.section2 {
+    background-color: black;
+    padding: 15px;
+height: 400px;
+    margin-bottom: 10px;
+}
+.section3 {
+    background-color: black;
+height: 1000px;
+    margin-bottom: 10px;
+}
+.section4 {
+    background-color: black;
+    padding: 15px;
+height: 1000px;
+    margin-bottom: 10px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+	height: 200px;
+}
+div.gallery img {
+    width: 100%;
+    height: 100%;
+	box-sizing: border-box;
+}
+/*.mybox{
+    box-sizing: border-box;
+}*/
+/@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+/*@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
